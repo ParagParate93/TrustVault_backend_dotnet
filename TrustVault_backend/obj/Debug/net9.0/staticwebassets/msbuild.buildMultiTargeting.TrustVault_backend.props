@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TrustVault_backend.props" />
+</Project>

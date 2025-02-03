@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\ContactUsController.cs",
+              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "TrustVault_backend\\Controllers\\ContactUsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:21:04.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
