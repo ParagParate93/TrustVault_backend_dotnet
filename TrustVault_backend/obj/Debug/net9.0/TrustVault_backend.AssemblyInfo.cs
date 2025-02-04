@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrustVault_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ad10243bf7311f8dff98dd5b9e52faed4cd04ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrustVault_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrustVault_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

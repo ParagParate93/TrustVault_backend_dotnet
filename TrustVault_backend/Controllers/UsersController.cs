@@ -98,16 +98,16 @@ namespace TrustVault_backend.Controllers
         [HttpPost("authenticate")]
         public async Task<IActionResult> ValidateAsync(AuthenticateRequest model) 
         {
-            var response = _userService.Authenticate(model);
-            if (response == null)
+            var response1 = _userService.Authenticate(model);
+            if (response1 == null)
             {
                 return BadRequest(new { message = "Invalid email or password." });
             }
             try
             {
 
-                var otpCode = await _otpService.GenerateOtpAsync(response.Email, response.Role); 
-                return Ok(new { message = "Authentication successful. OTP has been sent to your email.", otpCode });
+                var otpCode = await _otpService.GenerateOtpAsync(response1.Email, response1.Role); 
+                return Ok(new { message = "Authentication successful. OTP has been sent to your email.", otpCode, response1 });
             }
             catch (Exception ex)
             {

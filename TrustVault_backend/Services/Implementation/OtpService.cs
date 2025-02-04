@@ -36,7 +36,7 @@ namespace TrustVault_backend.Services.Implementation
             await _otpRepository.SaveOtpAsync(otp);
 
             // Send OTP to user's email
-            bool emailSent = await _emailService.SendEmailAsync(email, "TrustVault 2FA Code ", $"Your OTP for TrustVault 2FA is: {otpCode} Valid for next 3 mins!!!");
+            bool emailSent = await _emailService.SendEmailAsync(email, "TrustVault Code ", $"Your OTP for TrustVault is: <b>{otpCode}</b> Valid for next 3 mins!!!");
             if (emailSent)
             {
                 Console.WriteLine($"OTP sent successfully to: {email}");

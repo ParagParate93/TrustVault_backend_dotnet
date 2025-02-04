@@ -21,7 +21,7 @@ namespace TrustVault_backend.Services.Implementation
         {
             string loginLink = "http://localhost:5173/login";
             string subject = $"Document Shared with You: {request.DocumentName} by {request.SharedBy}";
-            string body = $"Hello,<br><br><span style='margin-left:40px;'>{request.SharedBy} has shared the document \"{request.DocumentName}\" with you on TrustVault.</span> Please register or log in to your TrustVault account to view the document.<br><span style='margin-left:40px;'>Login here: <a href='{loginLink}'>{loginLink}</a></span>";
+            string body = $"Hello,<br><span style='margin-left:40px;'><b>{request.SharedBy}</b> has shared the document \"<b>{request.DocumentName}</b>\" with you on TrustVault.</span> Please register or log in to your TrustVault account to view the document.<br><span style='margin-left:40px;'><b>Login here:</b> <a href='{loginLink}'>{loginLink}</a></span>";
 
              
 
