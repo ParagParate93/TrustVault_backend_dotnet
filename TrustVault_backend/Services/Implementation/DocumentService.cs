@@ -52,7 +52,7 @@ namespace TrustVault_backend.Services.Implementation
                 Name = name,
                 Type = type,
                 Size = size,
-                UploadedAt = DateTime.UtcNow,
+                UploadedAt = DateTime.Now,
                 EncryptedContent = encryptedContent,
                 EncryptionKey = encryptionKey,
                 UploadedBy = uploadedBy,
