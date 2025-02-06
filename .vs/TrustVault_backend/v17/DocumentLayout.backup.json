@@ -3,96 +3,24 @@
   "WorkspaceRootPath": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\documentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\documentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\forgotpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\forgotpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\otpcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\otpcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\icontactformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\icontactformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\idocumentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\idocumentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\iforgotpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\iforgotpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\smtpsetting\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\smtpsetting\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\util\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\util\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\repositories\\implementation\\documentsharingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\repositories\\implementation\\documentsharingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\repositories\\implementation\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\repositories\\implementation\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\repositories\\implementation\\otprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\repositories\\implementation\\otprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\dto\\authenticateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\dto\\authenticateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|d:\\project_end\\dot_net_project\\latest_01022025\\trustvault_backend\\trustvault_backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,236 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DocumentService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:58:37.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentSharingService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:43:41.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OtpCleanupService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\OtpCleanupService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\OtpCleanupService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\OtpCleanupService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\OtpCleanupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:43:04.462Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DocumentController.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\DocumentController.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\DocumentController.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\DocumentController.cs",
-              "RelativeToolTip": "TrustVault_backend\\Controllers\\DocumentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:58:50.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\EmailService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\EmailService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\EmailService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\EmailService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwBMAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:40:23.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDocumentService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IDocumentService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IDocumentService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IDocumentService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IDocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:36.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IContactFormService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IContactFormService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IContactFormService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IContactFormService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IContactFormService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:38.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDocumentSharingService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IDocumentSharingService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IDocumentSharingService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IDocumentSharingService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IDocumentSharingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:35.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IEmailService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IEmailService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IEmailService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:34.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ForgotPasswordService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\ForgotPasswordService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\ForgotPasswordService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\ForgotPasswordService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\ForgotPasswordService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:43:07.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\UserService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\UserService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\UserService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\UserService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwvxkAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:25:15.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OtpService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\OtpService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\OtpService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\OtpService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\OtpService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:35:44.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IForgotPasswordService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IForgotPasswordService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IForgotPasswordService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IForgotPasswordService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IForgotPasswordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:33.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IOtpService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IOtpService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IOtpService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IOtpService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IOtpService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:31.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IUserService.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Interface\\IUserService.cs",
-              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:29.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EncryptionHelper.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Util\\EncryptionHelper.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Util\\EncryptionHelper.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Util\\EncryptionHelper.cs",
-              "RelativeToolTip": "TrustVault_backend\\Util\\EncryptionHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:11.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\SMTPSetting\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\SMTPSetting\\SmtpSettings.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\SMTPSetting\\SmtpSettings.cs",
-              "RelativeToolTip": "TrustVault_backend\\SMTPSetting\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:42:08.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DocumentSharingRepository.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\DocumentSharingRepository.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Repositories\\Implementation\\DocumentSharingRepository.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\DocumentSharingRepository.cs",
-              "RelativeToolTip": "TrustVault_backend\\Repositories\\Implementation\\DocumentSharingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:41:42.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DocumentRepository.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\DocumentRepository.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Repositories\\Implementation\\DocumentRepository.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\DocumentRepository.cs",
-              "RelativeToolTip": "TrustVault_backend\\Repositories\\Implementation\\DocumentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:41:37.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Document.cs",
               "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Entity\\Document.cs",
               "RelativeDocumentMoniker": "TrustVault_backend\\Entity\\Document.cs",
@@ -363,55 +62,68 @@
               "RelativeToolTip": "TrustVault_backend\\Entity\\Document.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:41:30.827Z"
+              "WhenOpened": "2025-02-04T16:55:45.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\appsettings.json",
-              "RelativeDocumentMoniker": "TrustVault_backend\\appsettings.json",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\appsettings.json",
-              "RelativeToolTip": "TrustVault_backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-02T13:41:13.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OtpRepository.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\OtpRepository.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Repositories\\Implementation\\OtpRepository.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Repositories\\Implementation\\OtpRepository.cs",
-              "RelativeToolTip": "TrustVault_backend\\Repositories\\Implementation\\OtpRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCAAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\DocumentController.cs",
+              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "TrustVault_backend\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA8wB8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:44:39.036Z"
+              "WhenOpened": "2025-02-04T16:53:24.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OtpController.cs",
-              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\OtpController.cs",
-              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\OtpController.cs",
-              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\OtpController.cs",
-              "RelativeToolTip": "TrustVault_backend\\Controllers\\OtpController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDEAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AuthenticateResponse.cs",
+              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\DTO\\AuthenticateResponse.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\DTO\\AuthenticateResponse.cs",
+              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\DTO\\AuthenticateResponse.cs",
+              "RelativeToolTip": "TrustVault_backend\\DTO\\AuthenticateResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:33:49.01Z"
+              "WhenOpened": "2025-02-04T07:01:11.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\UserService.cs",
+              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwBkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T06:48:31.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Controllers\\UsersController.cs",
               "RelativeToolTip": "TrustVault_backend\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T05:34:19.807Z"
+              "WhenOpened": "2025-02-03T18:14:51.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "ToolTip": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:23:18.707Z"
             }
           ]
         },
