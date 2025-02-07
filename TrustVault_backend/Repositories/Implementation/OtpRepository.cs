@@ -37,5 +37,17 @@ namespace TrustVault_backend.Repositories.Implementation
         {
             await _context.Database.ExecuteSqlRawAsync("TRUNCATE TABLE Otps");
         }
+
+        public async Task DeleteOtpAsync(string email)
+        {
+            
+            var otpRecord = await _context.Otps.FirstOrDefaultAsync(x => x.Email == email);
+            if (otpRecord != null)
+            {
+                _context.Otps.Remove(otpRecord);
+                await _context.SaveChangesAsync();
+            }
+        }
+
     }
 }

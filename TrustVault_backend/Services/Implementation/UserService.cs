@@ -55,9 +55,8 @@ namespace TrustVault_backend.Services.Implementation
             var existingUser = await _userRepository.GetUserByEmailAsync(user.Email);
 
             if (existingUser != null)
-                return false; // User already exists
+                return false;
 
-            // Hash the password before storing it
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
 
             await _userRepository.AddUserAsync(user);
@@ -66,6 +65,7 @@ namespace TrustVault_backend.Services.Implementation
 
         public async Task UpdateUserAsync(User user)
         {
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             await _userRepository.UpdateUserAsync(user);
         }
 
