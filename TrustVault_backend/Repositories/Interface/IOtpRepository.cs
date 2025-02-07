@@ -7,7 +7,7 @@ namespace TrustVault_backend.Repositories.Interface
         Task SaveOtpAsync(Otp otp);
         Task<Otp> GetOtpByEmailAsync(string email);
         Task<bool> IsOtpExpiredAsync(long otpId);
-
+        Task DeleteOtpAsync(string email);
         Task TruncateOtpTableAsync();
 
     }
