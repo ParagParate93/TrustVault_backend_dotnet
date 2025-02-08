@@ -9,6 +9,7 @@ using TrustVault_backend.Models;
 using TrustVault_backend.Repositories.Interface;
 using TrustVault_backend.Services.Interface;
 using BCrypt.Net;
+using TrustVault_backend.DTO;
 
 
 namespace TrustVault_backend.Services.Implementation
@@ -67,6 +68,23 @@ namespace TrustVault_backend.Services.Implementation
         {
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             await _userRepository.UpdateUserAsync(user);
+        }
+
+        public async Task<User?> UpdateUserByAdminAsync(int id, UpdateUserUsingAdmin dto)
+        {
+            var existingUser = await _userRepository.GetUserByIdAsync(id);
+            if (existingUser == null)
+            {
+                return null; 
+            }
+
+            existingUser.Name = dto.Name ?? existingUser.Name;
+            existingUser.Email = dto.Email ?? existingUser.Email;
+            existingUser.Phone = dto.Phone ?? existingUser.Phone;
+            existingUser.Role = dto.Role ?? existingUser.Role;
+
+            await _userRepository.UpdateUserByAdminAsync(existingUser);
+            return existingUser;
         }
 
 

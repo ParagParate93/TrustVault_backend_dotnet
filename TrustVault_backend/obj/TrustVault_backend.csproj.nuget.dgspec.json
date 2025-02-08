@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {}
+    "D:\\CDAC\\FinalDotNetProject2\\backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {}
   },
   "projects": {
-    "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {
+    "D:\\CDAC\\FinalDotNetProject2\\backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
+        "projectUniqueName": "D:\\CDAC\\FinalDotNetProject2\\backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
         "projectName": "TrustVault_backend",
-        "projectPath": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
+        "projectPath": "D:\\CDAC\\FinalDotNetProject2\\backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
         "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
-        "outputPath": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\obj\\",
+        "outputPath": "D:\\CDAC\\FinalDotNetProject2\\backend\\TrustVault_backend_dotnet\\TrustVault_backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,6 +75,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             }
           },
           "imports": [

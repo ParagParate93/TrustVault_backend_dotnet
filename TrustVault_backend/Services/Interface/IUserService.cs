@@ -1,4 +1,5 @@
-﻿using TrustVault_backend.Entity;
+﻿using TrustVault_backend.DTO;
+using TrustVault_backend.Entity;
 using TrustVault_backend.Models;
 
 namespace TrustVault_backend.Services.Interface
@@ -12,5 +13,6 @@ namespace TrustVault_backend.Services.Interface
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
         AuthenticateResponse Authenticate(AuthenticateRequest model);
+        Task<User?> UpdateUserByAdminAsync(int id, UpdateUserUsingAdmin updateUserUsingAdmin);
     }
 }
