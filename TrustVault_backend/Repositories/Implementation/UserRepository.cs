@@ -56,6 +56,14 @@ namespace TrustVault_backend.Repositories.Implementation
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<User> UpdateUserByAdminAsync(User user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+            return user;
+        }
+
     }
 }
 

@@ -342,6 +342,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TrustVault_backend.Controllers.CreateController",
+    "Method": "UpdateUser",
+    "RelativePath": "Create/updatebyadmin/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TrustVault_backend.DTO.UpdateUserUsingAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TrustVault_backend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

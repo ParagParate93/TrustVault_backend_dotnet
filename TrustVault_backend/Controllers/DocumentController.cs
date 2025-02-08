@@ -1,7 +1,9 @@
 ﻿using System.Reflection.Metadata;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using TrustVault_backend.Entity;
+using TrustVault_backend.Helper;
 using TrustVault_backend.Repositories.Implementation.TrustVault.Repositories;
 using TrustVault_backend.Repositories.Interface;
 using TrustVault_backend.Services.Interface;
@@ -26,6 +28,7 @@ namespace TrustVault.Controllers
         }
 
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TrustVault_backend.Entity.Document>>> GetDocuments()
         {
@@ -34,6 +37,7 @@ namespace TrustVault.Controllers
         }
 
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet("download/{id}")]
         public async Task<IActionResult> GetDocument(long id)
         {
@@ -45,7 +49,6 @@ namespace TrustVault.Controllers
                     return NotFound("Document not found");
                 }
 
-                // Decrypt the document content
                 var decryptedContent = EncryptionHelper.Decrypt(document.EncryptedContent, document.EncryptionKey);
 
                 // Set the correct content type and content disposition
@@ -74,6 +77,7 @@ namespace TrustVault.Controllers
             }
         }
 
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpPost]
         public async Task<ActionResult> CreateDocument([FromBody] TrustVault_backend.Entity.Document document)
         {
@@ -81,6 +85,7 @@ namespace TrustVault.Controllers
             return CreatedAtAction(nameof(GetDocument), new { id = document.Id }, document);
         }
 
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateDocument(int id, [FromBody] TrustVault_backend.Entity.Document document)
         {
@@ -92,7 +97,9 @@ namespace TrustVault.Controllers
             await _documentService.UpdateDocumentAsync(document);
             return Ok(document);
         }
+
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpDelete("deleteDocument/{id}")]
         public async Task<ActionResult> DeleteDocument(long id)
         {
@@ -114,6 +121,7 @@ namespace TrustVault.Controllers
         }
 
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpPost("upload")]
         public async Task<IActionResult> UploadFile(IFormFile file, [FromForm] string uploadedBy, [FromForm] string uploaderEmail)
         {
@@ -130,7 +138,9 @@ namespace TrustVault.Controllers
 
             return Ok(new { message = "File uploaded successfully." });
         }
+
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet("getAllDocument")]
         public async Task<IActionResult> GetDocumentsByUploader([FromQuery] string uploadedBy, [FromQuery] string uploaderEmail)
         {
@@ -155,6 +165,7 @@ namespace TrustVault.Controllers
             }
         }
         [EnableCors("AllowFrontend")]
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpPost("share")]
         public async Task<IActionResult> ShareDocument([FromBody] DocumentSharingRequest request)
         {

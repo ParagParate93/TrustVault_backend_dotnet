@@ -1,4 +1,5 @@
-﻿using TrustVault_backend.Entity;
+﻿using TrustVault_backend.DTO;
+using TrustVault_backend.Entity;
 
 namespace TrustVault_backend.Repositories.Interface
 {
@@ -10,5 +11,6 @@ namespace TrustVault_backend.Repositories.Interface
         Task<User> GetUserByIdAsync(int id);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
+        Task<User> UpdateUserByAdminAsync(User user);
     }
 }
