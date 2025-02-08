@@ -36,16 +36,13 @@ namespace TrustVault_backend.Repositories.Implementation
         }
 
         public async Task UpdateUserAsync(User user)
-        {
-            
+        {            
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             var existingUser = _context.Users.Local.FirstOrDefault(p => p.Id == user.Id);
-
-            
             if (existingUser != null)
             {
                 _context.Entry(existingUser).State = EntityState.Detached;
             }
-
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
         }

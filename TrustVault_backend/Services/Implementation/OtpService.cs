@@ -35,7 +35,7 @@ namespace TrustVault_backend.Services.Implementation
 
             await _otpRepository.SaveOtpAsync(otp);
 
-            // Send OTP to user's email
+            
             bool emailSent = await _emailService.SendEmailAsync(email, "TrustVault Code ", $"Your OTP for TrustVault is: <b>{otpCode}</b> Valid for next 3 mins!!!");
             if (emailSent)
             {
@@ -53,6 +53,7 @@ namespace TrustVault_backend.Services.Implementation
             var otpRecord = await _otpRepository.GetOtpByEmailAsync(email);
             if (otpRecord != null && otpRecord.OtpCode == otp && otpRecord.ExpiredOn >= DateTime.Now)
             {
+                await _otpRepository.DeleteOtpAsync(email);
                 return true; 
             }
 
