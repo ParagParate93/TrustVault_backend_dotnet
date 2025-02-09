@@ -23,7 +23,7 @@ namespace TrustVault_backend.Entity
         [RegularExpression(@"^\d{10}$", ErrorMessage = "Phone number must be exactly 10 digits.")]
         public string Phone { get; set; }
 
-        public string Role { get; set; } = "User";
+        public string Role { get; set; }
 
         [StringLength(500, ErrorMessage = "Bio cannot be longer than 500 characters")]
         public string? Bio { get; set; }

@@ -163,6 +163,10 @@ namespace TrustVault_backend.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Bio")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -178,6 +182,9 @@ namespace TrustVault_backend.Migrations
 
                     b.Property<string>("Phone")
                         .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ProfilePicture")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Role")

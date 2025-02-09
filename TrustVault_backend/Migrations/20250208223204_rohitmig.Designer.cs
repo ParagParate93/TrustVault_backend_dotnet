@@ -12,8 +12,8 @@ using TrustVault_backend.DB_Context;
 namespace TrustVault_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250201171103_Initial")]
-    partial class Initial
+    [Migration("20250208223204_rohitmig")]
+    partial class rohitmig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -166,6 +166,10 @@ namespace TrustVault_backend.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Bio")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -181,6 +185,9 @@ namespace TrustVault_backend.Migrations
 
                     b.Property<string>("Phone")
                         .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ProfilePicture")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Role")

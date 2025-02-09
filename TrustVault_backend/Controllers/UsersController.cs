@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using TrustVault_backend.DTO;
 using TrustVault_backend.Entity;
 using TrustVault_backend.Models;
 using TrustVault_backend.Services.Implementation;
 using TrustVault_backend.Services.Interface;
-using TrustVault_backend.DTO;
+
 
 namespace TrustVault_backend.Controllers
 {
@@ -33,7 +35,8 @@ namespace TrustVault_backend.Controllers
 
             return Ok(new { message = "Registration successful" });
         }
-        [Helper.Authorize]
+
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet("getalluser")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -55,6 +58,7 @@ namespace TrustVault_backend.Controllers
             }
         }
 
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(int id)
         {
@@ -66,8 +70,9 @@ namespace TrustVault_backend.Controllers
             return Ok(user);
         }
 
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpPut("update/{id}")]
-        public async Task<IActionResult> UpdateUser(int id,[FromBody] User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
         {
             Console.WriteLine($"Received User: {user.Name}, {user.Email}, {user.Role}, {user.Id}");
 
@@ -76,6 +81,17 @@ namespace TrustVault_backend.Controllers
             {
                 return BadRequest(new { message = $"User with id {user.Id} not found." });
             }
+
+            existingUser.Name = user.Name;
+            existingUser.Email = user.Email;
+            existingUser.Phone = user.Phone;
+            existingUser.Bio = user.Bio;
+            existingUser.ProfileImage = user.ProfileImage;
+            if (!string.IsNullOrEmpty(user.Password))
+            {
+                existingUser.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            }
+
             if (ModelState.IsValid)
             {
                 await _userService.UpdateUserAsync(user);
@@ -84,6 +100,7 @@ namespace TrustVault_backend.Controllers
             return BadRequest("Invalid data");
         }
 
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
@@ -97,7 +114,7 @@ namespace TrustVault_backend.Controllers
         }
 
         [HttpPost("authenticate")]
-        public async Task<IActionResult> ValidateAsync(AuthenticateRequest model) 
+        public async Task<IActionResult> ValidateAsync(AuthenticateRequest model)
         {
             var response1 = _userService.Authenticate(model);
             if (response1 == null)
@@ -107,13 +124,31 @@ namespace TrustVault_backend.Controllers
             try
             {
 
-                var otpCode = await _otpService.GenerateOtpAsync(response1.Email, response1.Role); 
+                var otpCode = await _otpService.GenerateOtpAsync(response1.Email, response1.Role);
                 return Ok(new { message = "Authentication successful. OTP has been sent to your email.", otpCode, response1 });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, new { message = "Error sending OTP: " + ex.Message });
             }
+        }
+
+        [HttpPut("updatebyadmin/{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] UpdateUserUsingAdmin dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid data");
+            }
+
+            var updatedUser = await _userService.UpdateUserByAdminAsync(id, dto);
+
+            if (updatedUser == null)
+            {
+                return NotFound(new { message = $"User with ID {id} not found" });
+            }
+
+            return Ok(updatedUser); 
         }
 
         [HttpGet("profile")]
@@ -144,19 +179,6 @@ namespace TrustVault_backend.Controllers
                 {
                     return NotFound(new { message = "User not found." });
                 }
-
-                // Map the DTO properties to the existing user.
-                //existingUser.Name = updateDto.Name;
-                //existingUser.Phone = updateDto.Phone;
-                //existingUser.Bio = updateDto.Bio;
-                //existingUser.ProfileImage = updateDto.ProfileImage;
-                //existingUser.Password = updateDto.Password;
-
-                // Update the password only if a new one is provided.
-                //if (!string.IsNullOrEmpty(updateDto.Password))
-                //{
-                //    existingUser.Password = updateDto.Password;
-                //}
 
                 await _userService.UpdateUserProfileAsync(updateDto);
                 return Ok(new { message = "Profile updated successfully." });

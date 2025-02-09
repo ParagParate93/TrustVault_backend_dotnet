@@ -9,6 +9,10 @@ using TrustVault_backend.Repositories.Implementation.TrustVault.Repositories;
 using TrustVault_backend.Helper;
 using TrustVault_backend.Services;
 using TrustVault_backend.SMTPSetting;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,24 +37,74 @@ builder.Services.AddScoped<IOtpService, OtpService>();
 builder.Services.AddScoped<IOtpRepository, OtpRepository>();
 builder.Services.AddScoped<IForgotPasswordService, ForgotPasswordService>();
 builder.Services.AddHostedService<OtpCleanupService>();
-
-
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
 
 // Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
-        builder => builder
-            //.WithOrigins("http://localhost:5173") // Replace with your frontend's URL
+        builder => builder 
             .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
 
+// Add JWT Authentication
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = false,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["AppSettings:Issuer"],
+            ValidAudience = builder.Configuration["AppSettings:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["AppSettings:Secret"]))
+        };
+    });
+
+
+builder.Services.AddAuthorization();
+
+// Add Swagger
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WordsHeavenWebAPI", Version = "v1" });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter JWT with Bearer into field",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+
+
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+
+
 
 var app = builder.Build();
 
@@ -59,13 +113,22 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseExceptionHandler("/Home/Error");
+    app.UseSwagger();
+    //app.UseSwaggerUI(c=>{
+    //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TrustVault API v1");
+    //    c.RoutePrefix = string.Empty;
+    //});
 }
 
 // Use CORS
 app.UseCors("AllowFrontend");
 //Prepare Middleware for Authentication and Authorization
+
 app.UseMiddleware<JwtMiddleware>();
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseCors("AllowAllPolicy");
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

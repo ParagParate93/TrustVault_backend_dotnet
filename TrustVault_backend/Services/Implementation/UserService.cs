@@ -71,6 +71,23 @@ namespace TrustVault_backend.Services.Implementation
             await _userRepository.UpdateUserAsync(user);
         }
 
+        public async Task<User?> UpdateUserByAdminAsync(int id, UpdateUserUsingAdmin dto)
+        {
+            var existingUser = await _userRepository.GetUserByIdAsync(id);
+            if (existingUser == null)
+            {
+                return null; 
+            }
+
+            existingUser.Name = dto.Name ?? existingUser.Name;
+            existingUser.Email = dto.Email ?? existingUser.Email;
+            existingUser.Phone = dto.Phone ?? existingUser.Phone;
+            existingUser.Role = dto.Role ?? existingUser.Role;
+
+            await _userRepository.UpdateUserByAdminAsync(existingUser);
+            return existingUser;
+        }
+
 
         public string generteJwtToken(User user)
         {

@@ -14,5 +14,6 @@ namespace TrustVault_backend.Services.Interface
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
         AuthenticateResponse Authenticate(AuthenticateRequest model);
+        Task<User?> UpdateUserByAdminAsync(int id, UpdateUserUsingAdmin updateUserUsingAdmin);
     }
 }
