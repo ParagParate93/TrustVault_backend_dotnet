@@ -58,7 +58,7 @@ namespace TrustVault_backend.Services.Implementation
             var user = await _userRepository.GetUserByEmailAsync(email);
             if (user != null)
             {
-                user.Password = newPassword; 
+                user.Password = BCrypt.Net.BCrypt.HashPassword(newPassword); 
                 user.Role = user.Role;
                 await _userRepository.UpdateUserAsync(user);
                 return true;

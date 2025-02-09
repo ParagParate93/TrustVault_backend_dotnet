@@ -37,7 +37,7 @@ namespace TrustVault_backend.Repositories.Implementation
 
         public async Task UpdateUserAsync(User user)
         {            
-            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            
             var existingUser = _context.Users.Local.FirstOrDefault(p => p.Id == user.Id);
             if (existingUser != null)
             {
@@ -55,6 +55,13 @@ namespace TrustVault_backend.Repositories.Implementation
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public async Task<List<User>> GetAdminsAsync()
+        {
+            return await _context.Users
+                .Where(user => user.Role == "ROLE_ADMIN")
+                .ToListAsync();
         }
 
         public async Task<User> UpdateUserByAdminAsync(User user)

@@ -6,9 +6,9 @@ using TrustVault_backend.Models;
 using TrustVault_backend.Services.Implementation;
 using TrustVault_backend.Services.Interface;
 
+
 namespace TrustVault_backend.Controllers
 {
-    
     [ApiController]
     [Route("[controller]")]
     public class CreateController : ControllerBase
@@ -22,7 +22,7 @@ namespace TrustVault_backend.Controllers
             _otpService = otpService;
         }
 
-        [HttpPost]
+        [HttpPost]  
         public async Task<IActionResult> Create([FromBody] User user)
         {
             if (!ModelState.IsValid)
@@ -86,7 +86,7 @@ namespace TrustVault_backend.Controllers
             existingUser.Email = user.Email;
             existingUser.Phone = user.Phone;
             existingUser.Bio = user.Bio;
-            existingUser.ProfilePicture = user.ProfilePicture;
+            existingUser.ProfileImage = user.ProfileImage;
             if (!string.IsNullOrEmpty(user.Password))
             {
                 existingUser.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
@@ -151,6 +151,43 @@ namespace TrustVault_backend.Controllers
             return Ok(updatedUser); 
         }
 
+        [HttpGet("profile")]
+        public async Task<IActionResult> GetProfile([FromQuery] string email)
+        {
+            var user = await _userService.GetUserByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound(new { message = "User not found." });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpPut("profile/update")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateUserProfileDto updateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                // Retrieve the existing user using the email from the DTO.
+                var existingUser = await _userService.GetUserByEmailAsync(updateDto.Email);
+                if (existingUser == null)
+                {
+                    return NotFound(new { message = "User not found." });
+                }
+
+                await _userService.UpdateUserProfileAsync(updateDto);
+                return Ok(new { message = "Profile updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
 
     }
 }
