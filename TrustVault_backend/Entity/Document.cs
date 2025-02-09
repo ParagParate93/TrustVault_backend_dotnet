@@ -16,6 +16,12 @@ namespace TrustVault_backend.Entity
         public string UploaderEmail { get; set; }
         [NotMapped]
         public bool IsShared { get; set; }
+        [NotMapped]
+        public string SharedBy { get; internal set; }
+        [NotMapped]
+        public string SharedWith { get; internal set; }
+        [NotMapped]
+        public DateTime SharedAt { get; internal set; }
     }
 }
 

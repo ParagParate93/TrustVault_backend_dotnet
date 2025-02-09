@@ -65,35 +65,42 @@ namespace TrustVault_backend.Services.Implementation
 
 
         public async Task<List<Document>> GetDocumentsByUploaderAsync(string uploadedBy, string uploaderEmail)
+{
+    
+    var uploadedDocuments = await _context.Documents
+                                 .Where(d => d.UploadedBy == uploadedBy && d.UploaderEmail == uploaderEmail)
+                                 .ToListAsync();
+
+
+    var sharedDocumentsInfo = await _context.DocumentSharing
+                                             .Where(ds => ds.SharedWith == uploaderEmail)
+                                             .ToListAsync();
+
+    var sharedDocumentIds = sharedDocumentsInfo.Select(ds => ds.DocumentId).ToList();
+
+    
+    var sharedDocuments = await _context.Documents
+                                        .Where(d => sharedDocumentIds.Contains(d.Id))
+                                        .ToListAsync();
+
+    
+    foreach (var document in sharedDocuments)
+    {
+        var sharingInfo = sharedDocumentsInfo.FirstOrDefault(ds => ds.DocumentId == document.Id);
+        if (sharingInfo != null)
         {
-            var uploadedDocuments = await _context.Documents
-                                         .Where(d => d.UploadedBy == uploadedBy && d.UploaderEmail == uploaderEmail)
-                                         .ToListAsync();
-
-           
-            var sharedDocumentsInfo = await _context.DocumentSharing
-                                                     .Where(ds => ds.SharedWith == uploaderEmail)
-                                                     .ToListAsync();
-
-           
-            var sharedDocumentIds = sharedDocumentsInfo.Select(ds => ds.DocumentId).ToList();
-
-            
-            var sharedDocuments = await _context.Documents
-                                                .Where(d => sharedDocumentIds.Contains(d.Id))
-                                                .ToListAsync();
-
-            
-            foreach (var document in sharedDocuments)
-            {
-                document.IsShared = true; 
-            }
-
-            
-            uploadedDocuments.AddRange(sharedDocuments);
-
-            return uploadedDocuments;
+            document.IsShared = true; 
+            document.SharedBy = sharingInfo.SharedBy;
+            document.SharedWith = sharingInfo.SharedWith;
+            document.SharedAt = sharingInfo.SharedAt;
         }
+    }
+
+    // Combine uploaded and shared documents
+    uploadedDocuments.AddRange(sharedDocuments);
+
+    return uploadedDocuments;
+}
     }
 
 }

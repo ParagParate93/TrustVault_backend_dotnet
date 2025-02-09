@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\services\\implementation\\documentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\documentsharingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\services\\implementation\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\services\\interface\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\interface\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\services\\implementation\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\services\\implementation\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\entity\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|c:\\users\\patil\\all cdac related stuff\\final project\\trustvaultbackenddotnet\\newcode\\trustvault_backend_dotnet\\trustvault_backend\\db context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1249-400C-48F7-875F-C29A5ECED261}|TrustVault_backend\\TrustVault_backend.csproj|solutionrelative:trustvault_backend\\db context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "TrustVault_backend\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAgwMIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:07:48.155Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentSharingService.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\DocumentSharingService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:10:32.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Program.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Program.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Program.cs",
+              "RelativeToolTip": "TrustVault_backend\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T11:07:27.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "TrustVault_backend\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T11:05:47.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\PaymentService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\PaymentService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\PaymentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T11:02:44.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Implementation\\DocumentService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwF4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T10:25:29.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "TrustVault_backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\appsettings.json",
+              "RelativeToolTip": "TrustVault_backend\\appsettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T06:54:02.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Interface\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Services\\Interface\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Services\\Interface\\IPaymentService.cs",
+              "RelativeToolTip": "TrustVault_backend\\Services\\Interface\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T11:10:33.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\DB Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\DB Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\DB Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrustVault_backend\\DB Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vwwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T06:45:35.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Entity\\Document.cs",
+              "RelativeDocumentMoniker": "TrustVault_backend\\Entity\\Document.cs",
+              "ToolTip": "C:\\Users\\patil\\All Cdac Related Stuff\\Final Project\\TrustVaultBackendDotNet\\NewCode\\TrustVault_backend_dotnet\\TrustVault_backend\\Entity\\Document.cs",
+              "RelativeToolTip": "TrustVault_backend\\Entity\\Document.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T06:45:17.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

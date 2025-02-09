@@ -33,10 +33,13 @@ builder.Services.AddScoped<IDocumentService, DocumentService>();
 builder.Services.AddTransient<IDocumentSharingService, DocumentSharingService>();
 builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddScoped<IDocumentSharingRepository, DocumentSharingRepository>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IOtpService, OtpService>();
 builder.Services.AddScoped<IOtpRepository, OtpRepository>();
 builder.Services.AddScoped<IForgotPasswordService, ForgotPasswordService>();
 builder.Services.AddHostedService<OtpCleanupService>();
+
+
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
 
 // Configure CORS
