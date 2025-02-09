@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
-namespace TrustVault_backend.Entity
+namespace TrustVault_backend.DTO
 {
-    public class User
+    public class UpdateUserProfileDto
     {
         public int Id { get; set; }
 
@@ -15,15 +14,12 @@ namespace TrustVault_backend.Entity
         [EmailAddress(ErrorMessage = "Invalid Email format")]
         public string Email { get; set; }
 
-        //[JsonIgnore] // Prevents password exposure in API responses
-        [JsonPropertyName("password")]
-        public string Password { get; set; }
+        // Password is optional during an update:
+        public string? Password { get; set; }
 
         [Required(ErrorMessage = "Phone number is required")]
         [RegularExpression(@"^\d{10}$", ErrorMessage = "Phone number must be exactly 10 digits.")]
         public string Phone { get; set; }
-
-        public string Role { get; set; } = "User";
 
         [StringLength(500, ErrorMessage = "Bio cannot be longer than 500 characters")]
         public string? Bio { get; set; }

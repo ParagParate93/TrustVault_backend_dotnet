@@ -322,6 +322,38 @@
   },
   {
     "ContainingType": "TrustVault_backend.Controllers.CreateController",
+    "Method": "GetProfile",
+    "RelativePath": "Create/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrustVault_backend.Controllers.CreateController",
+    "Method": "UpdateProfile",
+    "RelativePath": "Create/profile/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDto",
+        "Type": "TrustVault_backend.DTO.UpdateUserProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrustVault_backend.Controllers.CreateController",
     "Method": "UpdateUser",
     "RelativePath": "Create/update/{id}",
     "HttpMethod": "PUT",

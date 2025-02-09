@@ -10,5 +10,6 @@ namespace TrustVault_backend.Repositories.Interface
         Task<User> GetUserByIdAsync(int id);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
+        Task<List<User>> GetAdminsAsync(); // Fetch all admin users
     }
 }

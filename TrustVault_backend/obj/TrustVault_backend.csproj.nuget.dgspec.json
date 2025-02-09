@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {}
+    "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\TrustVault_backend.csproj": {}
   },
   "projects": {
-    "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj": {
+    "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\TrustVault_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
+        "projectUniqueName": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\TrustVault_backend.csproj",
         "projectName": "TrustVault_backend",
-        "projectPath": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\TrustVault_backend.csproj",
-        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
-        "outputPath": "D:\\CDAC\\finalDotNetProject\\dotnet_backend\\TrustVault_backend_dotnet\\TrustVault_backend\\obj\\",
+        "projectPath": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\TrustVault_backend.csproj",
+        "packagesPath": "C:\\Users\\91916\\.nuget\\packages\\",
+        "outputPath": "D:\\Project_end\\DOT_NET_PROJECT\\Latest_01022025\\TrustVault_backend\\TrustVault_backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\91916\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

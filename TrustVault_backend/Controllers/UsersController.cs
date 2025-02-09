@@ -3,6 +3,7 @@ using TrustVault_backend.Entity;
 using TrustVault_backend.Models;
 using TrustVault_backend.Services.Implementation;
 using TrustVault_backend.Services.Interface;
+using TrustVault_backend.DTO;
 
 namespace TrustVault_backend.Controllers
 {
@@ -114,5 +115,57 @@ namespace TrustVault_backend.Controllers
                 return StatusCode(500, new { message = "Error sending OTP: " + ex.Message });
             }
         }
+
+        [HttpGet("profile")]
+        public async Task<IActionResult> GetProfile([FromQuery] string email)
+        {
+            var user = await _userService.GetUserByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound(new { message = "User not found." });
+            }
+
+            return Ok(user);
+        }
+
+        [HttpPut("profile/update")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateUserProfileDto updateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                // Retrieve the existing user using the email from the DTO.
+                var existingUser = await _userService.GetUserByEmailAsync(updateDto.Email);
+                if (existingUser == null)
+                {
+                    return NotFound(new { message = "User not found." });
+                }
+
+                // Map the DTO properties to the existing user.
+                //existingUser.Name = updateDto.Name;
+                //existingUser.Phone = updateDto.Phone;
+                //existingUser.Bio = updateDto.Bio;
+                //existingUser.ProfileImage = updateDto.ProfileImage;
+                //existingUser.Password = updateDto.Password;
+
+                // Update the password only if a new one is provided.
+                //if (!string.IsNullOrEmpty(updateDto.Password))
+                //{
+                //    existingUser.Password = updateDto.Password;
+                //}
+
+                await _userService.UpdateUserProfileAsync(updateDto);
+                return Ok(new { message = "Profile updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
     }
 }

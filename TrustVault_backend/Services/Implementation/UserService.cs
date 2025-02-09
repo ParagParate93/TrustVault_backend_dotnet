@@ -9,6 +9,7 @@ using TrustVault_backend.Models;
 using TrustVault_backend.Repositories.Interface;
 using TrustVault_backend.Services.Interface;
 using BCrypt.Net;
+using TrustVault_backend.DTO;
 
 
 namespace TrustVault_backend.Services.Implementation
@@ -26,7 +27,8 @@ namespace TrustVault_backend.Services.Implementation
         public AuthenticateResponse? Authenticate(AuthenticateRequest model)
         {
             var user = _userRepository.GetUserByEmailAsync(model.Email).Result;
-            if (user == null || !BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
+            var test = !BCrypt.Net.BCrypt.Verify(model.Password, user.Password);
+            if (user == null || test)
             {
                 return null;
             }
@@ -65,7 +67,7 @@ namespace TrustVault_backend.Services.Implementation
 
         public async Task UpdateUserAsync(User user)
         {
-            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            //user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             await _userRepository.UpdateUserAsync(user);
         }
 
@@ -88,10 +90,35 @@ namespace TrustVault_backend.Services.Implementation
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
+        
         async Task<User> IUserService.GetUserByEmailAsync(string email)
         {
             return await _userRepository.GetUserByEmailAsync(email);
         }
+
+
+        public async Task UpdateUserProfileAsync(UpdateUserProfileDto updateDto)
+        {
+            var existingUser = await _userRepository.GetUserByEmailAsync(updateDto.Email);
+            if (existingUser == null)
+            {
+                throw new Exception("User not found.");
+            }
+
+            existingUser.Name = updateDto.Name;
+            existingUser.Phone = updateDto.Phone;
+            existingUser.Bio = updateDto.Bio;
+            existingUser.ProfileImage = updateDto.ProfileImage;
+            //existingUser.Password = updateDto.Password;
+
+            if (!string.IsNullOrEmpty(updateDto.Password) && updateDto.Password != existingUser.Password)
+            {
+                existingUser.Password = BCrypt.Net.BCrypt.HashPassword(updateDto.Password);
+            }
+
+            await _userRepository.UpdateUserAsync(existingUser);
+        }
+
     }
 
 }
